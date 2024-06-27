@@ -1,0 +1,61 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-like {
+    margin-left: auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #ccc;
+}
+
+.btn-like.liked {
+    color: red;
+}
+
+.btn-delete {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    background-color: #ff9999;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btn-minus, .btn-plus {
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 4px;
+}
+
+.item-price {
+    margin-left: auto;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Move buttons to the right */
+    justify-content: center; /* Center align buttons */
+}
+
+.btn-minus, .btn-plus {
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 4px;
+}
